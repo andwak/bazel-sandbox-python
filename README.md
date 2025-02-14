@@ -1,5 +1,5 @@
 # Fix for DNS Name Resolve Issues
-Open file `/etc/resolv.conf`
+Open file `sudo nano /etc/resolv.conf`
 Add nameserver 8.8.8.8 to use DNS server
 
 # Install Docker
