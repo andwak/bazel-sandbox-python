@@ -4,7 +4,8 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     curl \
     git \
-    gpg
+    gpg \
+    python3
 
 # Install Bazel
 RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor > bazel.gpg && \
